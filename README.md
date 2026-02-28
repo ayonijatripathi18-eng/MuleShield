@@ -9,19 +9,19 @@ Financial institutions face increasing losses due to mule accounts that move ill
  Our solution is a real-time, graph-based system designed to detect cross-channel mule accounts in financial ecosystems. It continuously monitors live transactions across banks, UPI, and digital wallets. Instead of analyzing accounts in isolation, the system models all transactions as a dynamic graph, enabling detection of hidden relationships and suspicious money flows as they occur.
 
 # How It Works
-Live Transaction Processing
+Live Transaction Processing-
  Incoming transactions are processed in real time, closely simulating real-world payment systems and allowing immediate analysis.
 
-Cross-Channel Identity Linking
+Cross-Channel Identity Linking-
  Accounts across different platforms are linked using shared attributes such as phone numbers, device IDs, or IP addresses. This provides unified visibility across channels and helps identify coordinated activity.
 
-Dynamic Transaction Graph
+Dynamic Transaction Graph-
  Each transaction updates a live graph where nodes represent accounts and edges represent money transfers. This evolving structure captures complex movement patterns that are difficult to detect with traditional methods.
 
-Real-Time Risk Scoring
+Real-Time Risk Scoring-
  Every account is assigned a continuously updated risk score based on behavioral and network signals, including rapid inflow and outflow of funds, interaction with many unique senders, intermediary behavior within transaction chains, and usage across multiple platforms.
 
-Alerts and Visualization
+Alerts and Visualization-
 Accounts that cross risk thresholds are flagged immediately. A visualization dashboard displays transaction flows, linked identities, and emerging mule networks, enabling faster investigation and response.
 
 # Why This Works
